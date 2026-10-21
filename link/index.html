@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="theme-color" content="#112d52">
+  <link rel="icon" type="image/webp" href="">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Zero cookies, zero tracker scripts, zero local storage. Pure dynamic config via config.json -->
+</head>
+<body>
+  <main class="page-container">
+    <!-- Header with Share & Profile (populated from config.json) -->
+    <header class="profile-header">
+
+      <div class="avatar-wrapper" id="avatarWrapper" style="display: none;">
+        <img id="profileAvatar" class="avatar-img" src="" alt="" width="96" height="96">
+      </div>
+
+      <h1 id="profileName" class="profile-name"></h1>
+      <p id="profileBio" class="profile-bio" style="display: none;"></p>
+    </header>
+
+    <!-- Main Link Cards (Dynamically generated from config.json) -->
+    <section id="linksContainer" class="links-list" aria-label="Collegamenti"></section>
+
+    <!-- Social Icons Footer (Dynamically generated from config.json) -->
+    <footer class="socials-container" id="socialsContainer" aria-label="Profili Social"></footer>
+
+    <!-- GDPR Privacy Badge (Dynamically controlled via config.json) -->
+    <aside id="privacyBadge" class="privacy-badge" style="display: none;" title="Clicca per leggere l'informativa sulla privacy" role="button" tabindex="0">
+      <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+      <span id="privacyBadgeText"></span>
+    </aside>
+  </main>
+
+  <!-- Privacy & Cookie Policy Modal (populated dynamically from config.json) -->
+  <div id="privacyModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-header-title">
+          <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <h2 id="modalTitle"></h2>
+        </div>
+        <button id="closeModalBtn" class="modal-close-btn" type="button" aria-label="Chiudi informativa">&times;</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+      <div class="modal-footer">
+        <button id="modalOkBtn" class="modal-action-btn" type="button"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

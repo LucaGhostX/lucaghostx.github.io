@@ -1,0 +1,132 @@
+{
+  "profile": {
+    "name": "LucaGhostX",
+    "avatar": "assets/avatar.webp",
+    "bio": "",
+    "verified": false
+  },
+  "theme": {
+    "backgroundColor": "#112d52",
+    "backgroundGradient": "linear-gradient(180deg, #112d52 0%, #112d52 30%, #13335b 45%, #173c68 58%, #1f4b7a 70%, #2b618e 80%, #417ea3 89%, #5ea8be 96%, #7dd9e8 100%)",
+    "buttonBorderColor": "#7dd9e8",
+    "buttonBgColor": "rgba(255, 255, 255, 0.05)",
+    "buttonHoverBgColor": "rgba(125, 217, 232, 0.2)",
+    "textColor": "#ffffff",
+    "fontFamily": "'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+  },
+  "links": [
+    {
+      "id": "youtube",
+      "title": "YouTube",
+      "url": "https://www.youtube.com/@LucaGhostX",
+      "icon": "assets/icons/youtube.webp",
+      "active": true,
+      "type": "link",
+      "hasShare": true
+    },
+    {
+      "id": "instagram",
+      "title": "Instagram",
+      "url": "https://www.instagram.com/lucaghostx.was.taken",
+      "icon": "assets/icons/instagram.webp",
+      "active": true,
+      "type": "link",
+      "hasShare": true
+    },
+    {
+      "id": "tiktok",
+      "title": "TikTok",
+      "url": "https://www.tiktok.com/@lucaghostx",
+      "icon": "assets/icons/tiktok.webp",
+      "active": true,
+      "type": "link",
+      "hasShare": false,
+      "hasChevron": true
+    },
+    {
+      "id": "discord",
+      "title": "Entra nel mio server Discord",
+      "url": "https://discord.gg/gfzPwC4",
+      "icon": "assets/icons/discord.webp",
+      "active": true,
+      "type": "link",
+      "hasShare": true
+    },
+    {
+      "id": "twitch",
+      "title": "Twitch",
+      "url": "https://www.twitch.tv/liveghostx",
+      "icon": "assets/icons/twitch.webp",
+      "active": true,
+      "type": "link",
+      "hasShare": true
+    },
+    {
+      "id": "reupload",
+      "title": "Live Reupload",
+      "url": "https://www.youtube.com/@liveghostxreupload341",
+      "icon": "assets/icons/reupload.webp",
+      "active": true,
+      "type": "link",
+      "hasShare": true
+    }
+  ],
+  "socials": [
+    {
+      "platform": "youtube",
+      "url": "https://youtube.com/@LucaGhostX",
+      "title": "YouTube",
+      "active": true
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/lucaghostx.was.taken",
+      "title": "Instagram",
+      "active": true
+    },
+    {
+      "platform": "tiktok",
+      "url": "https://tiktok.com/@lucaghostx",
+      "title": "TikTok",
+      "active": true
+    }
+  ],
+  "privacy": {
+    "gdprCompliant": true,
+    "cookiesUsed": false,
+    "trackingUsed": false,
+    "dataCollection": false,
+    "badgeText": "Zero Cookie • 100% GDPR Compliant"
+  },
+  "privacyPolicy": {
+    "title": "Informativa sulla Privacy & Cookie Policy",
+    "description": "Questo sito è stato realizzato secondo il principio di Privacy by Design & by Default, nel pieno rispetto del Regolamento UE 2016/679 (GDPR) e della Direttiva ePrivacy.",
+    "points": [
+      {
+        "title": "Cosa fa questo sito",
+        "text": "È una pagina vetrina statica e open source ospitata su GitHub Pages. Il suo unico scopo è mostrare i collegamenti ai canali e contenuti ufficiali di LucaGhostX."
+      },
+      {
+        "title": "Come funziona (Solo dati della repository)",
+        "text": "Il sito si limita a leggere i dati già presenti pubblicamente nella propria repository (il file config.json). Non interroga database esterni, non esegue script di profilazione e non riceve né invia parametri personali."
+      },
+      {
+        "title": "Zero Cookie (Nessun banner necessario)",
+        "text": "Non viene generato, salvato o letto alcun cookie (né cookie tecnici, né analitici, né di profilazione o di terze parti). Per questo motivo non è richiesta alcuna accettazione o banner fastidioso."
+      },
+      {
+        "title": "Nessun dato salvato sul tuo dispositivo",
+        "text": "Non viene effettuata alcuna archiviazione locale: non utilizziamo localStorage, sessionStorage né IndexedDB. Quando chiudi la pagina, sul tuo computer o telefono non rimane alcuna traccia."
+      },
+      {
+        "title": "Nessun dato inviato al server (Zero Tracciamento)",
+        "text": "Non raccogliamo indirizzi IP, statistiche di navigazione o dati telemetrici. Non utilizziamo Google Analytics, Meta Pixel né altri strumenti di monitoraggio."
+      },
+      {
+        "title": "Collegamenti esterni",
+        "text": "Cliccando sui link (YouTube, Twitch, Discord, Instagram, TikTok) verrai reindirizzato direttamente ai rispettivi siti esterni, i quali applicheranno le loro specifiche politiche di privacy indipendenti."
+      }
+    ],
+    "closeButtonText": "Ho capito"
+  }
+}
