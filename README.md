@@ -1,5 +1,7 @@
 # lucaghostx.github.io
 
+> 🌍 **Lingua / Language**: **Italiano** | [English (README.en.md)](./README.en.md)
+
 Sito web statico e aggregatore di collegamenti (Linktree) per i canali ufficiali di **LucaGhostX**, ospitato su **GitHub Pages**.
 
 Il progetto è stato sviluppato interamente tramite **vibe coding** (programmazione assistita da intelligenza artificiale con affinamento iterativo di logica, conformità normativa ed estetica).
@@ -64,7 +66,8 @@ A fondo pagina è presente il badge interattivo `Zero Cookie • 100% GDPR Compl
 ```text
 lucaghostx.github.io/
 ├── index.html                       # Redirect forzato e istantaneo della root verso /link/
-├── README.md                        # Documentazione tecnica e legale del progetto
+├── README.md                        # Documentazione in lingua italiana
+├── README.en.md                     # Documentation in English
 ├── LICENSE                          # Licenza del repository (Doppia licenza: MIT + Proprietary)
 └── link/                            # Modulo autonomo contenente la pagina dei collegamenti
     ├── index.html                   # Struttura HTML semantica priva di contenuti hardcodati
