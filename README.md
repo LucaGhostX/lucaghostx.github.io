@@ -68,7 +68,8 @@ lucaghostx.github.io/
 ├── index.html                       # Redirect forzato e istantaneo della root verso /link/
 ├── README.md                        # Documentazione in lingua italiana
 ├── README.en.md                     # Documentation in English
-├── LICENSE                          # Licenza del repository (Doppia licenza: MIT + Proprietary)
+├── LICENSE                          # Licenza del codice sorgente (MIT License)
+├── ASSETS-LICENSE.md                # Licenza per identità personale, brand e asset media
 └── link/                            # Modulo autonomo contenente la pagina dei collegamenti
     ├── index.html                   # Struttura HTML semantica priva di contenuti hardcodati
     ├── style.css                    # Fogli di stile, responsive layout e animazioni
@@ -126,21 +127,15 @@ Il repository è configurato per la pubblicazione tramite **GitHub Pages** con s
 
 ---
 
-## 7. Licenza e Condizioni d'Uso (Doppia Licenza)
+## 7. Licenze
 
-Il progetto è distribuito secondo un modello di **Doppia Licenza** per distinguere tra l'infrastruttura tecnica e l'identità personale del creator (si veda il file completo [`LICENSE`](./LICENSE)):
+Questo repository adotta licenze distinte per le diverse componenti del progetto:
 
-### A. Codice Sorgente (Licenza MIT)
-L'intera codebase tecnica — inclusi i file HTML, CSS, JavaScript ([`link/app.js`](./link/app.js)), la struttura di configurazione [`link/config.json`](./link/config.json) e l'architettura di rendering — è rilasciata sotto licenza open source **[MIT](./LICENSE)**. Chiunque è libero di studiare, copiare, modificare, integrare o utilizzare questo codice per i propri progetti o linktree personali.
+- **Codice sorgente:** Rilasciato sotto licenza MIT. Si veda [LICENSE](LICENSE).
+- **Identità personale, brand e asset media:** Tutti i diritti riservati, salvo ove espressamente autorizzato in modo separato. Si veda [ASSETS-LICENSE.md](ASSETS-LICENSE.md).
 
-### B. Identità Personale, Brand e Avatar (Tutti i Diritti Riservati - All Rights Reserved)
-I seguenti elementi sono **espressamente esclusi** dalla licenza MIT e restano di esclusiva proprietà intellettuale di **LucaGhostX**:
-1. **L'immagine del profilo / avatar** ([`link/assets/avatar.webp`](./link/assets/avatar.webp)) e qualsiasi grafica/fotografia raffigurante LucaGhostX.
-2. **Il nome d'arte, nickname e brand "LucaGhostX"**.
-3. **I testi biografici e descrittivi personali**.
+La licenza MIT si applica esclusivamente al codice sorgente e agli altri materiali esplicitamente designati come coperti da essa. Non concede alcuna autorizzazione all'uso dell'identità personale del creatore, dell'avatar o degli altri asset espressamente esclusi.
 
-> [!IMPORTANT]
-> **Condizione di Fork e Riuso**: Chiunque decida di clonare o effettuare un *fork* di questo repository per pubblicare una propria pagina web **DEVE OBBLIGATORIAMENTE sostituire l'immagine `avatar.webp`, il nome "LucaGhostX" e i collegamenti social con la propria identità** prima della messa online. È vietato qualsiasi uso non autorizzato dell'avatar o del nome a scopo di impersonificazione, plagio o riuso promozionale.
+I fork e gli adattamenti destinati alla pubblicazione online devono obbligatoriamente sostituire gli asset identificativi originali, il nome "LucaGhostX" e i link personali con i propri prima della messa online, senza suggerire alcuna approvazione o affiliazione con LucaGhostX ove non esistente.
 
-### C. Marchi di Terze Parti
-Tutti i marchi, i nomi commerciali e i loghi terzi citati o presenti nelle icone (YouTube, Twitch, Discord, Instagram, TikTok, GitHub, X, Threads, Spotify, Reddit, Telegram) appartengono ai rispettivi proprietari e sono utilizzati esclusivamente con finalità identificative e di collegamento ipertestuale (*fair use / uso leale nominativo*).
+I marchi, i loghi e i contenuti di terze parti rimangono di esclusiva proprietà dei rispettivi titolari.
