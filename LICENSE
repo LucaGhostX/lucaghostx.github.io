@@ -1,4 +1,10 @@
-MIT License
+# Licensing / Licenza (Doppia Licenza - Dual License)
+
+This repository uses a dual-licensing structure to differentiate between the open-source software code and the personal brand/identity assets.
+
+---
+
+## 1. Software Code: MIT License
 
 Copyright (c) 2026 LucaGhostX
 
@@ -19,3 +25,28 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 2. Personal Identity, Brand & Media Assets: All Rights Reserved (Tutti i diritti riservati)
+
+Copyright (c) 2026 LucaGhostX. All rights reserved.
+
+The following materials are **STRICTLY EXCLUDED** from the MIT License above and remain the exclusive personal and proprietary property of **LucaGhostX**:
+
+1. **Avatar & Personal Media**:
+   - The profile picture [`link/assets/avatar.webp`](./link/assets/avatar.webp) and any graphic asset, illustration, or photo depicting LucaGhostX.
+2. **Name & Personal Brand**:
+   - The pseudonym, nickname, brand, and handle **"LucaGhostX"**.
+3. **Personal Texts & Descriptions**:
+   - Any personal biography, custom slogans, and descriptive texts specific to the creator's identity.
+
+### Conditions for Forks and Clones:
+- **No Impersonation / Reuse**: You may **not** reproduce, distribute, publicly display, or create derivative works using the avatar, name, or personal brand of LucaGhostX without prior express written consent.
+- **Mandatory Replacement**: If you fork, clone, or adapt this repository to host your own page, you **MUST replace** `avatar.webp`, the name "LucaGhostX", and all personal links with your own assets and identity before publishing or making your site public.
+
+---
+
+## 3. Third-Party Trademarks
+
+All third-party brand names, registered trademarks, service marks, and logos (including YouTube, Twitch, Discord, Instagram, TikTok, GitHub, X, Threads, Spotify, Reddit, Telegram) appearing in this repository belong to their respective owners. They are used exclusively for informational and nominative linking purposes (fair use).
