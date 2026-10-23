@@ -13,7 +13,7 @@
 </head>
 <body>
   <main class="page-container">
-    <!-- Header with Share & Profile (populated from config.json) -->
+    <!-- Header & Profile (populated dynamically from config.json) -->
     <header class="profile-header">
 
       <div class="avatar-wrapper" id="avatarWrapper" style="display: none;">
@@ -31,8 +31,8 @@
     <footer class="socials-container" id="socialsContainer" aria-label="Profili Social"></footer>
 
     <!-- GDPR Privacy Badge (Dynamically controlled via config.json) -->
-    <aside id="privacyBadge" class="privacy-badge" style="display: none;" title="Clicca per leggere l'informativa sulla privacy" role="button" tabindex="0">
-      <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+    <aside id="privacyBadge" class="privacy-badge" style="display: none;" role="button" tabindex="0">
+      <span id="privacyBadgeIcon" class="privacy-badge-icon" aria-hidden="true"></span>
       <span id="privacyBadgeText"></span>
     </aside>
   </main>
@@ -42,7 +42,7 @@
     <div class="modal-card">
       <div class="modal-header">
         <div class="modal-header-title">
-          <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <span id="modalTitleIcon" class="modal-title-icon" aria-hidden="true"></span>
           <h2 id="modalTitle"></h2>
         </div>
         <button id="closeModalBtn" class="modal-close-btn" type="button" aria-label="Chiudi informativa">&times;</button>

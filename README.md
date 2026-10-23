@@ -49,7 +49,7 @@ Ai sensi delle *Linee Guida del Garante Privacy del 10 giugno 2021* e delle *Lin
 ### C. Risorse Self-Hosted e Tutela dell'Indirizzo IP
 - **Nessuna CDN esterna**: Non vengono utilizzate CDN pubbliche (`cdnjs`, `unpkg`, ecc.) che riceverebbero l'indirizzo IP del visitatore durante il download di librerie.
 - **Nessun Google Fonts**: Non vengono effettuate chiamate verso `fonts.googleapis.com` o server terzi, in conformità con la giurisprudenza europea (es. sentenza LG München 3 O 17493/20). La visualizzazione del testo sfrutta il *System Font Stack* nativo del sistema operativo dell'utente.
-- **Icone e Immagini Locali**: Tutte le icone social sono SVG incorporati nel codice; l'avatar e le icone dei pulsanti sono file WebP residenti nella cartella locale [`link/assets/`](./link/assets/).
+- **Icone e Immagini Locali**: Tutte le icone social sono file SVG locali residenti in [`link/assets/icons/socials/`](./link/assets/icons/socials/); l'avatar e le icone dei pulsanti sono file WebP residenti nella cartella [`link/assets/icons/links/`](./link/assets/icons/links/). Zero richieste a server esterni.
 
 ### D. Reindirizzamento e Piattaforme Esterne
 I pulsanti presenti nella pagina sono normali elementi di ancoraggio HTML (`<a>`) con attributo `rel="noopener noreferrer"`. Cliccando su un link, l'utente abbandona questo sito per navigare verso piattaforme terze (YouTube, Twitch, Discord, Instagram, TikTok), le quali applicano le proprie e autonome informative sulla privacy e policy sui cookie.
@@ -73,7 +73,9 @@ lucaghostx.github.io/
     ├── config.json                  # File di configurazione sorgente dei dati e dei testi
     └── assets/                      # Risorse grafiche locali
         ├── avatar.webp              # Immagine profilo di LucaGhostX
-        └── icons/                   # Icone grafiche dei servizi in formato WebP
+        └── icons/                   # Icone grafiche locali
+            ├── links/               # Icone per i pulsanti dei link (formato WebP)
+            └── socials/             # Icone SVG vettoriali per i profili social (personalizzabili)
 ```
 
 ---
@@ -89,25 +91,27 @@ Ogni collegamento è rappresentato da un oggetto nell'array `"links"`:
   "id": "youtube",
   "title": "YouTube",
   "url": "https://www.youtube.com/@LucaGhostX",
-  "icon": "assets/icons/youtube.webp",
-  "active": true,
-  "type": "link",
-  "hasShare": true
+  "icon": "assets/icons/links/youtube.webp",
+  "active": true
 }
 ```
 - `"active"`: Se impostato su `false`, esclude il pulsante dal rendering senza dover cancellare la configurazione.
-- `"hasShare"`: Abilita il pulsante di condivisione tramite Web Share API o copia negli appunti.
 
 ### Canali social nel footer
-Gestiti nell'array `"socials"`:
+Gestiti nell'array `"socials"`. Le icone SVG possono essere scelte o aggiunte a piacere nella cartella `link/assets/icons/socials/`:
 ```json
 {
   "platform": "youtube",
   "url": "https://youtube.com/@LucaGhostX",
   "title": "YouTube",
+  "icon": "assets/icons/socials/youtube.svg",
   "active": true
 }
 ```
+Se la proprietà `"icon"` non viene specificata, il sistema carica automaticamente `assets/icons/socials/<platform>.svg`.
+
+### Personalizzazione dei colori e dei social
+Tutte le icone SVG in `socials/` utilizzano `fill="currentColor"`. Per cambiare il colore delle icone social o dell'effetto hover non serve modificare i file SVG: basta impostare `"socialColor"` e `"socialHoverColor"` all'interno dell'oggetto `"theme"` in `config.json`.
 
 ---
 

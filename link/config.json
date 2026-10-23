@@ -12,6 +12,8 @@
     "buttonBgColor": "rgba(255, 255, 255, 0.05)",
     "buttonHoverBgColor": "rgba(125, 217, 232, 0.2)",
     "textColor": "#ffffff",
+    "socialColor": "#ffffff",
+    "socialHoverColor": "#7dd9e8",
     "fontFamily": "'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
   },
   "links": [
@@ -19,56 +21,43 @@
       "id": "youtube",
       "title": "YouTube",
       "url": "https://www.youtube.com/@LucaGhostX",
-      "icon": "assets/icons/youtube.webp",
-      "active": true,
-      "type": "link",
-      "hasShare": true
+      "icon": "assets/icons/links/youtube.webp",
+      "active": true
     },
     {
       "id": "instagram",
       "title": "Instagram",
       "url": "https://www.instagram.com/lucaghostx.was.taken",
-      "icon": "assets/icons/instagram.webp",
-      "active": true,
-      "type": "link",
-      "hasShare": true
+      "icon": "assets/icons/links/instagram.webp",
+      "active": true
     },
     {
       "id": "tiktok",
       "title": "TikTok",
       "url": "https://www.tiktok.com/@lucaghostx",
-      "icon": "assets/icons/tiktok.webp",
-      "active": true,
-      "type": "link",
-      "hasShare": false,
-      "hasChevron": true
+      "icon": "assets/icons/links/tiktok.webp",
+      "active": true
     },
     {
       "id": "discord",
       "title": "Entra nel mio server Discord",
       "url": "https://discord.gg/gfzPwC4",
-      "icon": "assets/icons/discord.webp",
-      "active": true,
-      "type": "link",
-      "hasShare": true
+      "icon": "assets/icons/links/discord.webp",
+      "active": true
     },
     {
       "id": "twitch",
       "title": "Twitch",
       "url": "https://www.twitch.tv/liveghostx",
-      "icon": "assets/icons/twitch.webp",
-      "active": true,
-      "type": "link",
-      "hasShare": true
+      "icon": "assets/icons/links/twitch.webp",
+      "active": true
     },
     {
       "id": "reupload",
       "title": "Live Reupload",
       "url": "https://www.youtube.com/@liveghostxreupload341",
-      "icon": "assets/icons/reupload.webp",
-      "active": true,
-      "type": "link",
-      "hasShare": true
+      "icon": "assets/icons/links/reupload.webp",
+      "active": true
     }
   ],
   "socials": [
@@ -76,24 +65,28 @@
       "platform": "youtube",
       "url": "https://youtube.com/@LucaGhostX",
       "title": "YouTube",
+      "icon": "assets/icons/socials/youtube.svg",
       "active": true
     },
     {
       "platform": "instagram",
       "url": "https://instagram.com/lucaghostx.was.taken",
       "title": "Instagram",
+      "icon": "assets/icons/socials/instagram.svg",
       "active": true
     },
     {
       "platform": "tiktok",
       "url": "https://tiktok.com/@lucaghostx",
       "title": "TikTok",
+      "icon": "assets/icons/socials/tiktok.svg",
       "active": true
     },
     {
       "platform": "github",
       "url": "https://github.com/LucaGhostX",
       "title": "GitHub",
+      "icon": "assets/icons/socials/github.svg",
       "active": true
     }
   ],
