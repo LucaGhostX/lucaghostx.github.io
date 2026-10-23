@@ -89,6 +89,12 @@
       "url": "https://tiktok.com/@lucaghostx",
       "title": "TikTok",
       "active": true
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/LucaGhostX",
+      "title": "GitHub",
+      "active": true
     }
   ],
   "privacy": {
